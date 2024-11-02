@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidemenu">
+        <img src="icons/close.png" alt="close" id="close" onclick="hideMenu()">
+        <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+        </ul>
+    </div>
+    <header>
+        <img id="logo" src="icons/logo.png" alt="logo">
+        <img id="menu"src="icons/menu.png" alt="menu" onclick="slideIn()">
+    </header>
+    <div class="main-container">
+        <main>
+            <p id="top-text">
+                Vivamus arcu felis bibendum ut
+                tristique et. Habitant morbi tristique 
+                senectus etnetus et malesuada fames.
+                Sapien eget mi proin sed libero enim 
+                sed. Et ultrices neque ornare aenean
+                euismod elementum nisi quis eleifend.
+            </p>
+            <img src="images/img2.png" alt="img2" id="img2">
+            <img src="images/img3.png" alt="img3" id="img3">
+            <h2>
+                VIRTUAL OR IN-SCHOOL<br> 
+                SCIENCE EXPERIENCES
+            </h2>
+            <p id="bottom-text">
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cilium dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt.
+            </p>
+            <a href="">LEARN MORE</a>
+            <img src="images/img1.png" alt="" id="img1">
+        </main> 
+    </div>
+    <footer>
+        <div>
+            <p onclick="textClick(this)" onblur="setUneditable(this)" tabindex="0">
+                Sample text. Click to select the text box. Click again or double<br>
+                click to start editing the text.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
